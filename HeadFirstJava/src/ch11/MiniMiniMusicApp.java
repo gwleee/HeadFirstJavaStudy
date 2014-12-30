@@ -17,6 +17,11 @@ public class MiniMiniMusicApp {
 			
 			Track track = seq.createTrack();
 			
+			/* message 144 means start playing
+			 * 
+			 * 
+			 */
+			
 			ShortMessage a = new ShortMessage();
 			a.setMessage(144,1,44,100);
 			MidiEvent noteOn = new MidiEvent(a,1);
