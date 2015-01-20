@@ -9,7 +9,7 @@ import java.io.*;
 public class QuizCardBuilder {
 	private JTextArea question;
 	private JTextArea answer;
-	private ArrayList<QuizCard> cardList;
+//	private ArrayList<QuizCard> cardList;
 	private JFrame frame;
 	
 	public static void main(String ar[]){
@@ -20,7 +20,7 @@ public class QuizCardBuilder {
 	public void go(){
 		frame = new JFrame("Quiz card builder");
 		JPanel mainPanel = new JPanel();
-		Font bigFont = new Fone("sanserif", Font.BOLD, 24);
+		Font bigFont = new Font("sanserif", Font.BOLD, 24);
 		question = new JTextArea(6,20);
 		question.setLineWrap(true);
 		question.setWrapStyleWord(true);
